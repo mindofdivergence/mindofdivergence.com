@@ -37,3 +37,21 @@ h1 {
     color: #bbb;
     margin: 5px 0;
 }
+
+.social-media {
+    margin-top: 20px;
+}
+
+.social-media a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+.social-media a:hover, .social-media a:focus {
+    color: gold;
+}
+
+.fab {
+    margin-right: 10px;
+}

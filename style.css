@@ -1,0 +1,39 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background-color: #111;
+    color: white;
+    text-align: center;
+}
+
+h1 {
+    font-size: 4em;
+    color: gold;
+    font-weight: bold;
+    margin: 0;
+}
+
+.subtitle {
+    font-size: 1.5em;
+    color: gold;
+    margin: 0;
+}
+
+.contact-info {
+    margin-top: 20px;
+}
+
+.contact-info p {
+    color: #bbb;
+    margin: 5px 0;
+}

@@ -1,5 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap');
+
+.profile-image {
+    width: 200px;
+    height: auto;
+}
+
+a, a:visited {
+    color: #1a1a1a; /* Dark color for better readability */
+    text-decoration: none; /* Optional: removes underline from links */
+}
+
+a:hover {
+    color: #4a4a4a; /* Slightly lighter color on hover */
+}
+
+a:active {
+    color: #000000; /* Color when the link is clicked */
+}
+
 body {
-    font-family: 'Dancing Script', cursive; /* This is just an example script font */
+    font-family: 'Playfair Display', serif;
     background-color: #2b2b2b; /* Dark gray background */
     color: #f0f0f0; /* Lighter text color for contrast */
     margin: 0;
